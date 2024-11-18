@@ -47,7 +47,7 @@ Mat bilinear_interpolation(const Mat &src, double factor) {
                 + src.at<uchar>(bot_i, right_j) * (di);
 
             double intensity = first_i_interp * (1 - dj) + second_i_interp * (dj);
-            dst.at<uchar>(i,j) = std::max(0, std::min(static_cast<int>(intensity), 255));
+            dst.at<uchar>(i,j) = std::clamp(static_cast<int>(intensity), 0, 255);
         }
     }
 
