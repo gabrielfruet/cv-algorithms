@@ -1,1 +1,15 @@
 .venv
+.cache
+target/
+
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+install.sh
+CTestTestfile.cmake
+CTestCustom.cmake
+CPack*
+CTestOutput.log
+CTestCustom.ctest

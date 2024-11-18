@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/fruet/dev/python/computer_vision/learning",
+  "command": "/bin/c++  -isystem /usr/local/include/opencv4  -o CMakeFiles/target/bilinear_interpolation.dir/src/bilinear_interpolation.cc.o -c /home/fruet/dev/python/computer_vision/learning/src/bilinear_interpolation.cc",
+  "file": "/home/fruet/dev/python/computer_vision/learning/src/bilinear_interpolation.cc",
+  "output": "CMakeFiles/target/bilinear_interpolation.dir/src/bilinear_interpolation.cc.o"
+}
+]

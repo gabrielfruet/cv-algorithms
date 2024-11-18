@@ -61,7 +61,7 @@ cv2.createTrackbar('change_kernel', 'norm_laplacian', 0, 1, filter_man.change_to
 
 while True:
     cv2.imshow('img', img)
-    img_gray_gauss = cv2.GaussianBlur(img_gray, (7,7), 0)
+    img_gray_gauss = cv2.GaussianBlur(img_gray, (5,5), 0)
     cv2.imshow('gauss', img_gray_gauss)
     norm_lapl = normalize_laplacian(apply_laplacian(img_gray_gauss))
     cv2.imshow('norm_laplacian', norm_lapl)
